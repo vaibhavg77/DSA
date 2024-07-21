@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void setZeroes(vector<vector<int>>& matrix) {            // only valid if elements dont have negative elements
+void setZeroes(vector<vector<int>>& matrix) {            // only valid if elements dont have negative element
 
         for(int i = 0 ; i<matrix.size(); i++){
             for(int j=0 ; j<matrix[0].size() ; j++){
